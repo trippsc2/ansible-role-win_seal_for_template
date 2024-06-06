@@ -1,7 +1,7 @@
 ---
 argument_specs:
   main:
-    short_description: This role seals a Windows machine for use as a template.
+    short_description: Windows Seal for Template
     description:
       - This role seals a Windows machine for use as a template.
     author:
