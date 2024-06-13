@@ -165,9 +165,9 @@
   ansible.windows.win_command: dism.exe /online /cleanup-image /startcomponentcleanup /resetbase
   changed_when: true
 
-- name: Include trippsc2.bleachbit role
+- name: Include trippsc2.template.bleachbit role
   ansible.builtin.include_role:
-    name: trippsc2.bleachbit
+    name: trippsc2.template.bleachbit
 
 - name: Optimize storage
   ansible.windows.win_command: 'defrag.exe C: /H'

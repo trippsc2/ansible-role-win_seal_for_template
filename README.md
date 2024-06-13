@@ -1,13 +1,13 @@
 <!-- BEGIN_ANSIBLE_DOCS -->
 
-# Ansible Role: jtarpley.win_seal_for_template
-This role seals a Windows machine for use as a template.
+# Ansible Role: ansible-role-win_seal_for_template
+DEPRECATED: Use trippsc2.template.windows instead.
 
 ## Requirements
 
 | Platform | Versions |
 | -------- | -------- |
-| Windows | 2019, 2022 |
+| Windows | <ul><li>2019</li><li>2022</li></ul> |
 
 ## Dependencies
 
